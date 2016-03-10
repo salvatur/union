@@ -22,17 +22,22 @@
 				<form method="POST" id="login" name="login" class="well col-md-6" action="https://www.e-travel.tur.br/guiAutenticador.aspx" autocomplete="off">
 					<fieldset>
 						<p class="titulo-dois">E-TRAVEL SUITE ®</p>
-						<label>
-							<input class="input-dois" id="WoobaLogin" name="WoobaLogin" value="Login:" onfocus="if(this.value=='Login:')this.value=''" onblur="if(this.value=='')this.value='Login:'" autocomplete="off" type="text">
-						</label>
-						<label>
-							<input class="input-dois" style="width:60px;" id="WoobaSenha" name="WoobaSenha" value="Senha:" onfocus="if(this.value=='Senha:')this.value=''" onblur="if(this.value=='')this.value='Senha:'" autocomplete="off" type="password">
-						</label>
-						<input value="Entrar" class="btn-dois" type="submit">
+						<div class="form-group">
+							<label for="WoobaLogin">Usuário</label>
+							<input type="text" class="form-control" id="WoobaLogin" name="WoobaLogin" placeholder="Usuário" autocomplete="off" />
+						</div>
+						<div class="form-group">
+							<label for="WoobaSenha">Senha</label>
+							<input type="password" class="form-control" id="WoobaSenha" name="WoobaSenha" autocomplete="off" />
+						</div>
+						<button type="submit" class="btn btn-primary">Entrar</button>
 					</fieldset>
 				</form>
 			</div>
 		</div>
 	</div>
+	<footer>
+	
+	</footer>
 </body>
 </html>
