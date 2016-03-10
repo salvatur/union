@@ -13,25 +13,23 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<img src="/img/logo-conso.png" align="center" />
-			<hr />
-			<h3>Estamos passando por uma instabilidade em nosso site!</h3>
-		</div>
-	</div>	
-	<div class="container">
-		<div class="row">
-			<form method="POST" id="login" name="login" class="well" action="https://www.e-travel.tur.br/guiAutenticador.aspx" autocomplete="off">
-				<fieldset>
-					<p class="titulo-dois">E-TRAVEL SUITE ®</p>
-					<label>
-						<input class="input-dois" id="WoobaLogin" name="WoobaLogin" value="Login:" onfocus="if(this.value=='Login:')this.value=''" onblur="if(this.value=='')this.value='Login:'" autocomplete="off" type="text">
-					</label>
-					<label>
-						<input class="input-dois" style="width:60px;" id="WoobaSenha" name="WoobaSenha" value="Senha:" onfocus="if(this.value=='Senha:')this.value=''" onblur="if(this.value=='')this.value='Senha:'" autocomplete="off" type="password">
-					</label>
-					<input value="Entrar" class="btn-dois" type="submit">
-				</fieldset>
-			</form>
+			<div class="col-md-2" style="text-align:center">
+				<img src="/img/logo-conso.png" align="center" />
+				<h3>Estamos passando por uma instabilidade em nosso site!</h3>
+				<hr />
+				<form method="POST" id="login" name="login" class="well" action="https://www.e-travel.tur.br/guiAutenticador.aspx" autocomplete="off">
+					<fieldset>
+						<p class="titulo-dois">E-TRAVEL SUITE ®</p>
+						<label>
+							<input class="input-dois" id="WoobaLogin" name="WoobaLogin" value="Login:" onfocus="if(this.value=='Login:')this.value=''" onblur="if(this.value=='')this.value='Login:'" autocomplete="off" type="text">
+						</label>
+						<label>
+							<input class="input-dois" style="width:60px;" id="WoobaSenha" name="WoobaSenha" value="Senha:" onfocus="if(this.value=='Senha:')this.value=''" onblur="if(this.value=='')this.value='Senha:'" autocomplete="off" type="password">
+						</label>
+						<input value="Entrar" class="btn-dois" type="submit">
+					</fieldset>
+				</form>
+			</div>
 		</div>
 	</div>
 </body>
